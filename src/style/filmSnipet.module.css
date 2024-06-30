@@ -1,0 +1,48 @@
+@import './variables.css';
+
+.body{
+    display: flex;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: var(--white);
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+.body:hover{
+    background-color: var(--very-light-gray);
+}
+.filmName{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.atributes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.atribute{
+    display: flex;
+}
+.atributeName{
+    width: 90px;
+    flex: 0 0 auto;
+    color: var(--gray);
+}
+.poster{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+.textInfo{
+    display: flex;
+    flex-direction: column;
+}
+.topInfo{
+    display: flex;
+    justify-content: space-between;
+}
+

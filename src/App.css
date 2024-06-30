@@ -1,0 +1,41 @@
+header {
+    padding: 24px 32px;
+    background-color: #333333;
+    display: flex;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    top: 0;
+    position: sticky;
+    width: auto;
+}
+
+.main {
+    padding: 0 32px 24px 32px;
+    flex: 1
+}
+
+:root {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1b1f23;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    min-width: 1px;
+    margin: 0px;
+    min-height: 100vh;
+}
+p {
+
+    margin: 0;
+}

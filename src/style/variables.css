@@ -1,0 +1,14 @@
+:root {
+    --black: #1B1F23;
+    --black-shadow: #1B1F231F;
+    --white: #FFFFFF;
+    --very-light-gray: #F8F8F8;
+    --light-gray: #E1E3E6;
+    --gray: #ABABAB;
+    --dark-gray: #333333;
+    --orange: #FF5500;
+    --orange-hov: #E94E00;
+    --pink: #F04075;
+    --gap-4px: 4px;
+    --gap-8px: 4px;
+}

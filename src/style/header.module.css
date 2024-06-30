@@ -1,0 +1,24 @@
+@import "./variables.css";
+
+.main {
+    padding: 24px 32px;
+    background-color: var(--dark-gray);
+    display: flex;
+    margin-bottom: 20px;
+    top: 0;
+    position: sticky;
+    width: auto;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 900;
+}
+.userBlock {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

@@ -1,0 +1,88 @@
+@import './variables.css';
+
+.selectComponent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-4px);
+}
+
+.label {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.select-wrapper {
+    position: relative;
+    width: 360px;
+    height: 40px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-4px);
+    position: relative;
+    width: 360px;
+}
+
+.selectInput {
+    display: flex;
+    gap: var(--gap-8px);
+    width: auto;
+    height: 20px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    cursor: pointer;
+}
+
+.orangeBorder {
+    border: 1px solid var(--orange);
+}
+
+.selectInput input {
+    border-width: 0;
+    width: 100%;
+    outline: 0;
+}
+
+.selectInput input::placeholder {
+    color: var(--gray);
+}
+
+.selectedLabel::placeholder {
+    color: var(--black);
+}
+
+.selectWrapper {
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+
+.selectWrapperOpen {
+    transform: rotate(180deg);
+}
+
+.dropdown {
+    width: auto;
+    height: 100%;
+    padding: 8px;
+    margin: 0;
+    background-color: var(--white);
+    border-radius: 8px;
+    list-style-type: none;
+    box-shadow: 0px 10px 22px -4px var(--black-shadow);
+}
+
+.element {
+    padding: 12px 12px 10px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}

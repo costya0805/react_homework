@@ -1,0 +1,64 @@
+@import './variables.css';
+
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-4px);
+    position: relative;
+    width: fit-content;
+}
+
+.label {
+    display: flex;
+    gap: var(--gap-4px);
+}
+
+.label .required {
+    color: var(--pink);
+}
+
+.input {
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    padding: 12px;
+    color: var(--black);
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search {
+    position: absolute;
+    left: 10px;
+}
+
+.cross {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.inputSearch {
+    padding-left: 36px;
+}
+
+.inputError {
+    border: 1px solid var(--pink);
+}
+
+.input::placeholder {
+    color: var(--gray);
+}
+
+.input:focus-visible{
+    border: 1px solid var(--orange);
+}
+
+.description {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--pink);
+}

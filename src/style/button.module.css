@@ -1,0 +1,32 @@
+@import "./variables.css";
+
+.button {
+    width: fit-content;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.fill {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.fill:hover {
+    background-color: var(--orange-hov);
+}
+
+.empty {
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+.empty:hover {
+    color: var(--orange-hov);
+    border-color: var(--orange-hov);
+}
